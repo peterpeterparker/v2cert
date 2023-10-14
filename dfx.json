@@ -1,0 +1,21 @@
+{
+  "canisters": {
+    "v2cert_frontend": {
+      "frontend": {
+        "entrypoint": "src/v2cert_frontend/src/index.html"
+      },
+      "source": [
+        "src/v2cert_frontend/src"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
