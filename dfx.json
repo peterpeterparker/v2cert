@@ -7,7 +7,10 @@
       "source": [
         "src/v2cert_frontend/src"
       ],
-      "type": "assets"
+      "type": "assets",
+      "metadata": [
+        { "name": "supported_certificate_versions", "content": "1,2" }
+      ]
     }
   },
   "defaults": {
